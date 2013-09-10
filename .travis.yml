@@ -11,6 +11,9 @@ env:
   - DB=pgsql
   - DB=sqlite
 
+services:
+  - redis-server
+
 matrix:
   include:
     - php: 5.4
